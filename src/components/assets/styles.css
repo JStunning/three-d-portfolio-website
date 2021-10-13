@@ -1,0 +1,301 @@
+/* Header */
+header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  top: -50vh;
+  left: -45vw;
+  padding: 20px;
+}
+header .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-right: 53vw;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header li {
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+header a {
+  color: #fff;
+  font-weight: 600;
+  background: #5959e6;
+  padding: 16px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+header p {
+  color: #fff;
+  font-weight: 600;
+  background: #5959e6;
+  padding: 16px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+header .resetButton {
+  background: rgb(218, 3, 3);
+  margin-left: 33px;
+}
+
+header h4 {
+  color: red;
+}
+
+/* // mobile Message */
+.mobileMessage{
+  border: 1px dotted red;
+  color: red;
+  width: 10.5em;
+  margin-top: 27em;
+  margin-left: -5em;
+  font-weight: bold;
+}
+
+/* Skills */
+.skillCard {
+  margin-bottom: 1%;
+  background: red;
+}
+
+.skillsHeader {
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 1%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.skillsClose {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  cursor: pointer;
+  background: red;
+  border-radius: 10px;
+  margin: 1% 42% 15% 42%;
+}
+
+.skillHeader {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18% 18% 18%;
+}
+
+.col {
+  display: grid;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.skillContent {
+  display: inline-block;
+}
+
+.skillCard img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  height: 64px;
+  width: 64px;
+}
+
+/* Card */
+.cardContainer {
+  border: 5px solid green;
+  margin-top: -39vh;
+  margin-left: -22.5vw;
+  width: 45vw;
+  height: 75vh;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.cardContainer h2 {
+  text-align: center;
+  font-size: 48px;
+  margin: 2vh;
+  color: green;
+}
+
+.cardContent {
+  border: 5px solid green;
+  background-color: black;
+  height: 54vh;
+  margin: 1%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.cardContent::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContent h3 {
+  margin: auto;
+  padding: 2% 12% 1% 15%;
+  font-size: 28px;
+  color: green;
+}
+
+.cardContent p {
+  margin: auto;
+  padding: 2% 1% 1% 1%;
+  font-size: 28px;
+  color: green;
+}
+
+.cardContent a {
+  margin: auto;
+  color: green;
+}
+
+.cardClose {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  cursor: pointer;
+  background: red;
+  border-radius: 10px;
+  margin: 1% 42% 15% 42%;
+  padding-top: .5vh;
+}
+
+/* Projects */
+.projectContainer {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.projectContainer h4 {
+  color: green;
+}
+
+.projectContainer p {
+  font-size: 24px;
+  color: black;
+}
+
+.projectHeader {
+  margin-top: -10vh;
+}
+
+.projectImg {
+  height: 40vh;
+  width: 33vw;
+  margin-bottom: 1vh;
+}
+
+.project {
+  margin-top: 1vh;
+}
+
+.projectSubHeader {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+}
+
+.projectAbout {
+  margin: 0 -6vw;
+}
+
+/* Contact */
+
+.contactContent p {
+  padding: 2vh 2vw;
+  font-size: 24px;
+}
+
+.contactContent a {
+  font-size: 18px;
+}
+
+/* Media Queries for mobile */
+
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    margin-top: -39vh;
+    margin-left: -47vw;
+    width: 91vw;
+    height: 75vh;
+  }
+
+  .cardContainer h2 {
+    font-size: 36px;
+  }
+
+  .cardContainer h3 {
+    font-size: 18px;
+  }
+  
+
+  .cardContent {
+    height: 55vh;
+    margin: 1%;
+  }
+
+  .cardContent p {
+    margin: auto;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .cardClose {
+    font-size: 48px;
+    padding: 1vh 1vw;
+  }
+
+  /* Skills */
+  .skillCard {
+    background-color: black;
+  }
+
+  .row {
+    display: block;
+  }
+
+  /* Projects */
+  .projectImg {
+    height: 23vh;
+    width: 66vw;
+  }
+
+  .projectContainer p {
+    font-size: 16px;
+    color: black;
+  }
+
+  .projectSubHeader {
+    font-size: 18px;
+  }
+
+  .projectContent a {
+    font-size: 12px;
+  }
+
+  /* Contact */
+  .contactContent {
+    height: 48vh;
+  }
+  .contactLink {
+    font-size: 14px;
+  }
+}

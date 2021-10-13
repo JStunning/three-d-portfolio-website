@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# _{3D Portfolio}_
+
+#### By _**{Jack Dunning}**_
+
+#### _{Mobile responsive portfolio website using react three fiber to generate 3D models for the design.}_
+
+## Technologies Used
+
+* _JavaScript_
+* _React_
+* _React Three Fiber_
+* _Material UI_
+
+## Description
+
+_{Using 3D models to show my projects, skills and contact info so employers know what I've done.}_
+
+## Setup/Installation Requirements
+
+* _download from github_
+* _in terminal: npm install_
+* _in terminal: npm start_
+
+## Known Bugs
+
+* _Navbar doesn't work on mobile_
+
+## License
+
+Copyright (c) _10/13/2021_ _JackDunning_
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
