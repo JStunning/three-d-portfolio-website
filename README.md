@@ -1,8 +1,8 @@
-# _{3D Portfolio}_
+# _3D Portfolio_
 
-#### By _**{Jack Dunning}**_
+#### By _**Jack Dunning**_
 
-#### _{Mobile responsive portfolio website using react three fiber to generate 3D models for the design.}_
+#### _Mobile responsive portfolio website using react three fiber to generate 3D models for the design._
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-_{Using 3D models to show my projects, skills and contact info so employers know what I've done.}_
+_Using 3D models to show my projects, skills and contact info so employers know what I've done._
 
 ## Setup/Installation Requirements
 
